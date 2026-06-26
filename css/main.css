@@ -10,23 +10,31 @@ body {
 h1 {
     color: #FF8559;
     font-size: 2em;
-    text-shadow: 2px 2px #0000;
+    text-shadow: 2px 2px #000;
 }
 
 h2 {
     color: #FF8559;
-    text-shadow: 2px 2px #0000;
+    text-shadow: 2px 2px #000;
 }
 
-ul {
-    background-color: #FF8559;
+p {
+    color: #FF8559;
+    font-size: .9em;
+}
+
+li {
+    color: #000;
 }
 
 a {
     color: #FF8559;
 }
 
-p {
-    color: #FF8559;
-    font-size: .9em;
+a:hover {
+    color: #40e0d0;
+}
+
+a:active {
+    color: #008080;
 }
