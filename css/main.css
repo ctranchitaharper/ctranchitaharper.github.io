@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #93E9BE;
+    font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1600 - 320)); /* Fluid typography. Makes the text responsive with screen size */
+}
+
+h1 {
+    color: #FF8559;
+    font-size: 2em;
+    text-shadow: 2px 2px #0000;
+}
+
+h2 {
+    color: #FF8559;
+    text-shadow: 2px 2px #0000;
+}
+
+ul {
+    background-color: #FF8559;
+}
+
+a {
+    color: #FF8559;
+}
+
+p {
+    color: #FF8559;
+    font-size: .9em;
+}
