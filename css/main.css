@@ -18,6 +18,12 @@ h2 {
     text-shadow: 2px 2px #000;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 p {
     color: #FF8559;
     font-size: .9em;
@@ -37,4 +43,9 @@ a:hover {
 
 a:active {
     color: #008080;
+}
+
+img {
+    max-width: 100%;
+    padding-bottom: 10px;
 }
