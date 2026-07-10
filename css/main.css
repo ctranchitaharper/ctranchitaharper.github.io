@@ -8,14 +8,14 @@ body {
 }
 
 h1 {
-    color: #FF8559;
+    color: #000;
     font-size: 2em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px #6d6c6c;
 }
 
 h2 {
-    color: #FF8559;
-    text-shadow: 2px 2px #000;
+    color: #000;
+    text-shadow: 2px 2px #6d6c6c;
 }
 
 section {
@@ -25,7 +25,7 @@ section {
 }
 
 p {
-    color: #FF8559;
+    color: #000;
     font-size: .9em;
 }
 
