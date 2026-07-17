@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 8</title>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <h1>SQL exercises</h1>
+
+    <h2>SELECT Statement</h2>
+    <ul>
+        <li>SELECT * FROM Customers;</li>
+    </ul>
+    <p>Selects only the CustomerID and customer name fields in the Customers table.</p>
+
+    <h2>WHERE Statement</h2>
+    <ul>
+        <li>SELECT * FROM Customers WHERE Country='USA';</li>
+    </ul>
+    <p>Selects only CustomerIDs and customer name fields that are located in the USA from the Customers table.</p>
+
+    <h2>COUNT Statement</h2>
+    <ul>
+        <li>SELECT COUNT(*) FROM Products;</li>
+    </ul>
+    <p>Counts all the records in the Products table.</p>
+
+    <h2>INSERT INTO Statment</h2>
+    <ul>
+        <li>INSERT INTO Customers VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
+    </ul>
+    <p>Inserts the values listed for all the columns. This gets inserted into the Customers Table and creates a new record at the bottom of the table.</p>
+
+    <h2>UPDATE Statement</h2>
+    <ul>
+        <li>UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;</li>
+    </ul>
+    <p>Updates the ContactName and City for the customer with the CustomerID 1 in the Customers table.</p>
+
+    <p>
+        I didn't have any experience with SQL so I learned quite a bit during this unit and exercise. For example, I learned what the basic statements are and do. I had a particularly
+        hard time with the COUNT statement because I couldn't visualize what exactly it was counting. With some digging, I had found that with a * in the parentheses it counts all the records
+        regardless of if they have anything in them or not (null). However, if you put the name of the table in the parentheses then it will NOT count records that are null. The * in the example
+        really threw me off due to this. I decided to think about it in a way that I could better understand it using a language that I already know, javaScript. I thought of it and visualized 
+        the statements as If-Then statements and Arrays which, arguably overcomplicates it, but works better for me because I typically visualize the output of code before running it.
+    </p>
+  </body>
+</html>
